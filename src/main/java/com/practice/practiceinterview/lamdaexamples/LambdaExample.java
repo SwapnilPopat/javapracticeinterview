@@ -1,6 +1,7 @@
 package com.practice.practiceinterview.lamdaexamples;
 import java.util.*;
 
+// If you want to pass logic as a parameter, functional interfaces make that possible.
 @FunctionalInterface
 interface MyFunctionalInterface {
     void sayMessage(String message);
